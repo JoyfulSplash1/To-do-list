@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyful spalsh todo list</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__Item">
+            <h1 class="container__Item-title">
+                Joyful Splash To-Do List
+            </h1>
+
+            <div class="container-inputHolder">
+                <div class="input_Container">
+                    <input type="text" placeholder="Add your task" id="todoInput"></input>
+                </div>
+                <button onclick="HandleTodo()">Add</button>
+            </div>
+
+            <div class="container__TodosCon" id="todosCon" >
+                <ol class="container__Todos" id="todos">                    
+                </ol>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>This to-do app was built by Joyful Splash</p>
+        </footer>
+    </div>
+    <script src="./App.js"></script>
+</body>
+
+</html>
